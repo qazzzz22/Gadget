@@ -1,8 +1,14 @@
-# Codex 本地代理一键修复工具 v2.0.0
+# Codex 本地代理一键修复工具
 
 Windows local proxy diagnosis and repair for Codex. Open source under the [MIT License](LICENSE).
 
-**[下载 Windows 一键修复 ZIP](https://github.com/qazzzz22/Gadget/raw/refs/heads/main/downloads/Codex-Proxy-Repair-v2.0.0.zip)** · [SHA-256 校验文件](https://github.com/qazzzz22/Gadget/blob/main/downloads/Codex-Proxy-Repair-v2.0.0.zip.sha256)
+**推荐：[下载 Python v3.0.0 一键修复 ZIP](https://github.com/qazzzz22/Gadget/raw/refs/heads/main/downloads/Codex-Proxy-Repair-Python-v3.0.0.zip)** · [Python 版完整说明](PYTHON_README.md) · [SHA-256](https://github.com/qazzzz22/Gadget/blob/main/downloads/Codex-Proxy-Repair-Python-v3.0.0.zip.sha256)
+
+Python 版需要 Python 3.11+，仅使用标准库，不调用 PowerShell 或 curl。解压后运行 **Python-一键修复.cmd**；也提供仅诊断和还原入口。包含 TOML 完整解析校验、原子写入、备份和后续修改保护。
+
+源码为 [`codex_proxy_repair.py`](codex_proxy_repair.py)，测试及打包命令见 [Python 版说明](PYTHON_README.md)。
+
+旧版保留：[下载 PowerShell v2.0.0 ZIP](https://github.com/qazzzz22/Gadget/raw/refs/heads/main/downloads/Codex-Proxy-Repair-v2.0.0.zip)。**以下为 PowerShell v2.0.0 使用说明**，Python 版请使用上面的专用入口和说明。
 
 适用于 Windows 10/11 上 Codex 反复出现 `os error 10061`、连接被拒绝、`stream disconnected`、不断重连，并且原因是本地代理配置失效的情况。
 

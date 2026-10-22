@@ -1,6 +1,11 @@
 # Runtime data and local configuration must never be published.
 backups/
 logs/
+python-backups/
+python-logs/
+__pycache__/
+*.py[cod]
+*.building
 fixture-*/
 dist/
 output/
