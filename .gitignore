@@ -1,0 +1,16 @@
+# Runtime data and local configuration must never be published.
+backups/
+logs/
+fixture-*/
+dist/
+output/
+.env
+.env.*
+config.toml*
+auth*.json
+*.before
+codex-network-settings.json
+codex-network-report.txt
+Thumbs.db
+Desktop.ini
+.DS_Store
